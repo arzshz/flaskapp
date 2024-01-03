@@ -7,4 +7,4 @@ app = Flask(__name__)
 def index():
     return render_template('base.html')
 
-asgi_app = WsgiToAsgi(app)
+asgiapp = WsgiToAsgi(app)
