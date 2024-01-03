@@ -9,4 +9,4 @@ RUN pip install flask uvicorn asgiref
 
 EXPOSE 5000
 
-CMD ["uvicorn", "app:asgi_app", "--host", "127.0.0.1", "--port", "5000"]
+CMD ["uvicorn", "app:asgiapp", "--host", "0.0.0.0", "--port", "5000"]
